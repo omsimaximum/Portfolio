@@ -1,0 +1,313 @@
+@media (max-width:1200px) {
+    .introduction-container .name{
+        font-size: 4rem;
+    }
+    .contact-text{
+        width: 60%;
+    }
+    .contact-text p {
+        font-size: 8rem
+    }
+    form button{
+        width: 120px;
+        height: 120px;
+    }
+    .contact-socials{
+        font-size: 1.5rem;
+    }
+    .first img{
+        width: 250px;
+        height: 450px;
+    }
+    .left h1{
+        font-size: 4.5rem;
+    }
+    
+}
+
+@media (max-width:1000px) {
+    html{
+        font-size: 15px;
+    }
+    .left-nav .left-nav-container{
+        transform: translateX(40%);
+    }
+    .social-container{
+        width: 4%;
+    }
+    .welcome-container .welcome-text{
+        font-size:5rem;
+    }
+
+    .circular-text{
+        top: 5%;
+    }
+    .introduction-container{
+        width: 60%;
+    }
+    .introduction-container .name{
+        font-size: 3.3rem;
+    }
+    .introduction-container .description{
+        width: 80%;
+        line-height: 1.4;
+    }
+    .contact-text p {
+        font-size: 7rem
+    }
+    .contact-socials{
+        top: -50px;
+    }
+}
+@media (max-width:900px) {
+    .contact-form{
+        padding: 20px;
+    }
+    .contact-text p {
+        font-size: 6.5rem
+    }
+    .box{
+        flex-direction: column;
+    }
+    .left{
+        height: 30vh;
+        width: 100%;
+    }
+    .left h1{
+        font-size: 4rem;
+    }
+    .right{
+        height: 70vh;
+        position: relative;
+        z-index: 1;
+        background: var(--black);
+        width: 100%;
+    }
+    /*  */
+    
+    .first img{
+        width: 250px;
+        height: 350px;
+    }
+
+    .first img:nth-child(1){
+        position: relative;
+        top: -20px;
+    }
+    .first img:nth-child(2){
+        position: relative;
+        top: 20px;
+    }
+    .second img{
+        width: 70%;
+    }
+    .third img{
+        width: 80%;
+    }
+
+}
+@media (max-width:800px) {
+    .introduction-container{
+        width: 70%;
+    }
+    form button{
+        width: 100px;
+        height: 100px;
+    }
+    .contact-socials{
+        top: -80px;
+    }
+}
+
+@media (max-width:750px) {
+    html{
+        font-size: 14px;
+    }
+
+    .toggle{
+        width: 3rem;
+        height: 2rem;
+    }
+    #close-menu{
+        display: none;
+    }
+    #dot{
+        width: 25px;
+        height: 25px;
+    }
+    .welcome-container .scroll-down{
+        right: 50px;
+    }
+    .about-me{
+        font-size: 3.5rem;
+    }
+    .about-me h1{
+        left: -200px;
+    }
+    .introduction-container{
+        width: 80%;
+    }
+    .contact-text p {
+        font-size: 6rem
+    }
+}
+@media (max-width:700px) {
+    .left h1{
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .second img{
+        width: 80%;
+    }
+}
+@media (max-width:650px) {
+    .left-nav{
+        width: 5%;
+    }
+    .social-container{
+        width: 5%;
+    }
+    .welcome-container .scroll-down{
+        right: 0px;
+    }
+    .welcome-container .welcome-text{
+        font-size:5rem;
+    }
+    .left-nav-slide ul{
+        font-size: 4rem;
+    }
+
+    .about-me{
+        font-size: 2.7rem;
+    }
+    .introduction-container .name{
+        font-size: 3rem;
+    }
+    .introduction-container .description{
+        width: 70%;
+        line-height: 1.3;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+    .contact-text{
+        width: 100%;
+        text-align: center;
+        display:block;
+    }
+    .contact-text p{
+        font-size: 5rem;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form form{
+        align-items: center;
+    }
+    form input, form textarea{
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width:500px) {
+    
+    .welcome-container .welcome-text{
+        font-size:4rem;
+    }
+    .left-nav{
+        display: none;
+    }
+    .social-container{
+        display: none;
+    }
+    #about{
+        background: none;
+    }
+    .about-me{
+        font-size: 2.5rem;
+    }
+    .introduction-container{
+        width: 100%;
+        padding: 0 5% 0 10%;
+    }
+    .introduction-container .description{
+        width: 90%;
+    }
+    form input, form textarea{
+        width: 100%;
+    }
+    form button{
+        width: 80px;
+        height: 80px;
+    }
+    .contact-text p {
+        font-size: 4rem
+    }
+    .contact-socials{
+        font-size: 1.3rem;
+    }
+    .left{
+        height: 20vh;
+    }
+    .left h1{
+        font-size: 2.5rem;
+    }
+    .left a{
+        font-size: 1.1rem;
+    }
+    /*  */
+
+    .second img{
+        width: 100%;
+    }
+    .third img{
+        width: 100%;
+    }
+    .boxes .box:nth-child(3) .left{
+        height: 25vh;
+    }
+    .boxes .box:nth-child(3) .right{
+        height: 75vh;
+    }
+    
+}
+@media (max-width:400px) {
+    .about-me{
+        font-size: 2rem;
+    }
+    .about-me h1{
+        left: -100px;
+    }
+    .introduction-container{
+        width: 100%;
+        padding: 0 10%;
+    }
+    .introduction-container p{
+        margin-bottom: 1rem;
+    }
+    .introduction-container .name{
+        font-size: 3rem;
+    }
+    .introduction-container .description{
+        width: 100%;
+    }
+    .contact-socials{
+        font-size: 1.1rem;
+    }
+    .contact-social-links{
+        margin-left: 20px;
+    }
+
+    /*  */
+    .left h1{
+        font-size: 2rem;
+    }
+    .first img{
+        width: 200px;
+        height: 300px;
+    }
+    
+}

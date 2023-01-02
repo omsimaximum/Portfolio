@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--GSAP JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaquery.css" />
+    <title>JG</title>
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div class="loader">
+      <h1 data-text="JOSH">JOSH</h1>
+    </div>
+    
+    <header id="home">
+      <nav>
+        <a href="#home" id="logo">JOSH</a>
+      </nav>
+      <main id="home">
+        <div class="welcome-container">
+          <div class="welcome-text">
+            <h1>HE<br />LLO <span id="dot"></span></h1>
+          </div>
+
+          <div class="scroll-down">
+            <p>scroll</p>
+            <i class="fa-sharp fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+      </main>
+    </header>
+    <!-- START OF LEFT NAV -->
+    <div class="left-nav">
+      <div class="left-nav-container">
+        <div class="toggle" id="close-toggle"></div>
+        <p id="close-menu">Menu</p>
+      </div>
+    </div>
+    <!-- END OF LEFT NAV -->
+    <!-- LEFT NAV SLIDE -->
+    <div class="left-nav-slide" id="left-nav-slide">
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#works">WORK</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+    <!-- END OF LEFT NAV SLIDE -->
+    <!-- RIGHT SOCIAL ICONS -->
+    <div class="social-container">
+      <div class="socials">
+        <a href="https://discord.gg/5gyVWZq2" target="_blank"
+          ><i class="fa-brands fa-discord"></i
+        ></a>
+        <a href="https://www.facebook.com/joshkile.gementiza/" target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/jshkleg/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </div>
+    <!-- END OF SOCIAL ICONS -->
+
+    <div class="about-me">
+        <h1 class="about-text">ABOUT ME</h1>
+    </div>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="introduction-container">
+        <p>I'm</p>
+        <p class="name">Joshkile Gementiza</p>
+        <p class="description">
+          An aspiring web developer. I am passionate about using my skills and
+          knowledge in programming languages to create and maintain websites. I
+          am highly motivated and dedicated to learning and improving my skills
+          in web development. I am excited about the opportunity to work with a
+          team of experienced developers, and am eager to take on new challenges
+          and responsibilities as I continue to grow and develop as a web
+          developer.
+        </p>
+        <a class="btn" href="./resources/Resume.pdf" target="_blank"
+          ><span>Download CV</span></a
+        >
+      </div>
+    </section>
+    <!-- END OF ABOUT SECTION -->
+
+    <div class="about-me">
+      <h1 class="about-text">PROJECTS</h1>
+    </div>
+
+    <section id="works">
+        <div class="boxes">
+            <div class="box">
+                <div class="left">
+                    <div class="left-text">
+                      <h1>
+                          TIC TAC TOE GAME
+                      </h1>
+                      <a href="https://omsimaximum.github.io/tic-tac-toe/" target="_blank"><i class="fa-brands fa-github"></i> VIEW REPO</a>
+                    </div>
+                </div>
+                <div class="right first">
+                    <img src="./img/mediamodifier_image 1.png" alt="">
+                    <img src="./img/tictactoe1.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <div class="left-text">
+                      <h1 >
+                        TODO-LIST APP
+                      </h1>
+                      <a href="https://omsimaximum.github.io/todo-react-app/" target="_blank"><i class="fa-brands fa-github"></i> VIEW REPO</a>
+                    </div>
+                </div>
+                <div class="right second">
+                    <img src="./img/Group 1.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <div class="left-text">
+                      <h1>
+                        ROCK PAPER SCISSOR
+                      </h1>
+                      <a href="https://omsimaximum.github.io/rock-paper-scissor/" target="_blank"><i class="fa-brands fa-github"></i> VIEW REPO</a>
+                    </div>
+                </div>
+                <div class="right third">
+                    <img src="./img/screenshot-rocks (2).png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>      
+    <div class="about-me">
+        <h1 class="about-text">CONTACT</h1>
+    </div>
+
+    <footer id="contact">
+        <div class="contact-text">
+            <p>LET'S</p>
+            <p> GET IN</p>
+            <p> TOUCH</p>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="email" placeholder="EMAIL" required>
+                <input type="text" placeholder="FULL NAME" required>
+                <textarea cols="30" rows="1" placeholder="MESSAGE" required></textarea>
+                <button type="submit">SUBMIT</button>
+            </form>
+            <div class="contact-socials">
+                <p>STALK ME</p>
+                <div class="contact-social-links">
+                    <a href="https://github.com/omsimaximum" target="_blank">GITHUB</a>
+                    <a href="mailto:joshkilegementiza@gmail.com" target="_blank">GOOGLE</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
