@@ -104,6 +104,16 @@ setTimeout(() => {
 
         aboutTl.from('.introduction-container',{y:200, opacity:0,duration:1})
 
+        const contactTl = gsap.timeline({
+            scrollTrigger:{
+                trigger:'#contact',
+                markers:false,
+                start:'top 40%',
+                toggleActions:'play reverse play reverse'
+            }
+        })
+        contactTl.from('.contact-text',{x:-100,opacity:0})
+        contactTl.from('.contact-form',{x:100,opacity:0})
         window.addEventListener('scroll', () => {
             welcomeText.style.transform = 'translateY( -' + (window.pageYOffset) + 'px)';
             
@@ -120,7 +130,7 @@ setTimeout(() => {
                 socialContainer.style.display = '';
             }
         })
-
+ 
 
         const hamburgerMenu = () => {
         toggle.classList.toggle('active');

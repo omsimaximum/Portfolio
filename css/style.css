@@ -492,6 +492,7 @@ nav a:hover{
     height: 100vh;
     display: flex;
     position: relative;
+    overflow: hidden;
 }
 .contact-text{
     color: #d1cdcc;
