@@ -6,6 +6,8 @@ const about = document.getElementById('about');
 const footer = document.getElementById('contact');
 const header = document.getElementById('home');
 const menus = leftNavSlide.querySelectorAll('ul li a');
+const form = document.forms['form'];
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -129,6 +131,15 @@ setTimeout(() => {
             toggle.classList.remove('active');
             leftNavSlide.classList.remove('active');
         })
+        })
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = form.querySelector('input[type="email"]');
+            const name = form.querySelector('input[type="text"]');
+            const msg = form.querySelector('textarea');
+            name.value = '';
+            msg.value = '';
+            email.value = '';
         })
         
         toggle.onclick = hamburgerMenu;
